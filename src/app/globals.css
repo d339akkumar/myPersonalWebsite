@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+/*  */
+@media (max-width: 640px) {
+  .ml-28 {
+    margin-left: 0;
+  }
+  .mr-28 {
+    margin-right: 0;
+  }
+  .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .px-24 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
